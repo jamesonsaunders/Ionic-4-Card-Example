@@ -1,14 +1,90 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Ionic 4 Card Example
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+
+    <p>Vectically stacked cards</p>
+
+    <ion-card color="light">
+      <ion-card-header>
+        <ion-card-title>Jami Bot</ion-card-title>
+        <ion-card-subtitle>Full Stack Developer</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card color="light">
+      <ion-card-header>
+        <ion-card-title>Jami Bot</ion-card-title>
+        <ion-card-subtitle>Full Stack Developer</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+      </ion-card-content>
+    </ion-card>
+
+    <br>
+    <br>
+    <br>
+
+    <p>Cards in the same row (and with images)</p>
+
+    <div class="horizontal-cards">
+
+      <ion-card color="light">
+        <ion-card-header>
+          <ion-card-title>Jami Bot</ion-card-title>
+          <ion-card-subtitle>Full Stack Developer</ion-card-subtitle>
+        </ion-card-header>
+      
+        <ion-card-content>
+          Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+        </ion-card-content>
+
+        <img src="assets/jami-bot.png">
+      </ion-card>
+
+      <ion-card color="light">
+        <ion-card-header>
+          <ion-card-title>Jami Bot</ion-card-title>
+          <ion-card-subtitle>Full Stack Developer</ion-card-subtitle>
+        </ion-card-header>
+      
+        <ion-card-content>
+          Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+        </ion-card-content>
+
+        <img src="assets/jami-bot.png">
+      </ion-card>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <p>Cards using data from the typescript</p>
+
+    <ion-card color="light" *ngFor="let card of cards">
+      <ion-card-header>
+        <ion-card-title>{{card.title}}</ion-card-title>
+        <ion-card-subtitle>{{card.subtitle}}</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        {{card.description}}
+      </ion-card-content>
+    </ion-card>
+
   </div>
 </ion-content>
