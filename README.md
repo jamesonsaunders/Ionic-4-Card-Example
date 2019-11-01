@@ -1,13 +1,13 @@
 # Ionic 4 Card Example
 
-This project accompanies the [Jami Bot](https://jamibot.com) YouTube video [Ionic 4 Card Tutorial](https://www.youtube.com/watch?v=aMYIFZwFJZU) as well as the blog article [Ionic 4 Card Tutorial](https://blog.jamibot.com/ionic-4-card).
+This project accompanies the [Jameson Saunders](https://jamesonsaunders.com) YouTube video [Ionic 4 Card Tutorial](https://www.youtube.com/watch?v=aMYIFZwFJZU) as well as the blog article [Ionic 4 Card Tutorial](https://blog.jamibot.com/ionic-4-card).
 
 [![Ionic 4 Card
 Tutorial](https://img.youtube.com/vi/aMYIFZwFJZU/maxresdefault.jpg)](https://www.youtube.com/watch?v=aMYIFZwFJZU)
 
 A complete demonstration of how to use all the different features the ion-card has to offer. Examples of vertical and horizontal stacking, images, color, and variable binding.
 
-If you haven't already, check out the [Jami Bot YouTube Channel](https://youtube.com/c/JamiBot) for web development tutorials.
+If you haven't already, check out the [Jameson Saunders YouTube Channel](https://youtube.com/c/JamesonSaunders) for web & development tutorials.
 
 ## Installation
 
